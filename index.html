@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Assignment 3 - JS Golf </title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div id="title">
+      <h3> Mini Golf ! </h3>
+    </div>
+    <div id="game_section">
+      <canvas id="game" height="500" width="1000"></canvas>
+      <img id="ball1" onclick="moveBall1()" src="assets/ball1.png">
+      <img id="ball2" onclick="moveBall2()" src="assets/ball2.png">
+      <div id="display">
+        <div class="float" id="Score">
+          <h3 id="blueScoreLabel"> Blue score: </h3>
+          <h3 id="yellowScoreLabel"> Yellow score: </h3>
+        </div>
+        <div class="float" id="ScoreNumber">
+          <h3 id="blueScore"> 0 </h3>
+          <h3 id="yellowScore"> 0 </h3>
+        </div>
+        <div class="float">
+          <h3 id="totalBlueLabel"> Blue Total: </h3>
+          <h3 id="totalYellowLabel"> Yellow Total: </h3>
+        </div>
+        <div class="float">
+          <h3 id="totalBlue"> 0 </h3>
+          <h3 id="totalYellow"> 0 </h3>
+        </div>
+        <div class="float">
+          <h3 id="LossBlueLabel"> blue loss total: </h3>
+          <h3 id="LossYellowLabel"> yellow loss total: </h3>
+        </div>
+        <div class="float">
+          <h3 id="LossBlue"> 0 </h3>
+          <h3 id="LossYellow"> 0 </h3>
+        </div>
+      </div>
+
+      <!--
+      <div id="display2">
+        <div class="float" id="Positions">
+          <h3> blue (x, y): </h3>
+          <h3> yellow (x, y): </h3>
+        </div>
+        <div class="float" id="numberdisplay">
+          <h3 id="bluePosition"> 0 </h3>
+          <h3 id="yellowPosition"> 0 </h3>
+        </div>
+        <div class="float" id="rollNumber">
+          <h3> Roll Blue: </h3>
+          <h3> Roll yellow: </h3>
+        </div>
+        <div class="float" id="numberdisplay">
+          <h3 id="blueroll"> 0 </h3>
+          <h3 id="yellowroll"> 0 </h3>
+        </div>
+      </div>
+    -->
+    <div id="winNTellDisplay">
+      <br> <br> <br>
+      <h1 id="winNTellText"> Lets play some minigolf! <h1>
+    </div>
+
+
+      <script src="game.js"></script>
+    </div>
+  </body>
+</html>

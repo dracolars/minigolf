@@ -1,0 +1,52 @@
+body{
+  width: 1000px;
+  height: 500px;
+}
+
+canvas {
+  /* border: solid black 2px; */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#game_section {
+  display: block;
+  margin: auto;
+}
+
+h3 {
+  text-align: center;
+}
+
+#ball1 {
+  position: relative;
+}
+
+#ball2 {
+  position: relative;
+  margin-left: -39px;
+}
+
+
+.float{
+  width: 14%;
+  float: left;
+  padding: 10px;
+}
+
+#winNTellDisplay {
+  position: relative;
+  height: 300px;
+  width: 900px;
+  margin-top: -450px;
+  margin-left: 50px;
+
+}
+
+#winNTellText{
+  font-size: 50px;
+  text-align: center;
+
+
+}
